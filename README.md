@@ -1,0 +1,2 @@
+# React + Vite
+We use Link tag <Link /> inplace of anchor tag <a> because anchor tag refresh the page, in React we don't refresh page (single page website). by refreshing the complete DOM is recreated while in React only the parts are rerendered which are changed so we don't need to update whole page. This is done by Fibre a diffing algorightm. In React a virtual DOM is created and Fibre compares the virtual DOM with actual DOM and only rerendered the parts which are changed.
